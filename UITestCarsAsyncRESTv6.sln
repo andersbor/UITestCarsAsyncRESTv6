@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestCarsAsyncRESTv6", "UITestCarsAsyncRESTv6\UITestCarsAsyncRESTv6.csproj", "{AE2AE08F-5345-4125-B20A-D6A182F09CE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE2AE08F-5345-4125-B20A-D6A182F09CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2AE08F-5345-4125-B20A-D6A182F09CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2AE08F-5345-4125-B20A-D6A182F09CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2AE08F-5345-4125-B20A-D6A182F09CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7208280-EDC0-4704-8428-7A433C5F0037}
+	EndGlobalSection
+EndGlobal
