@@ -22,8 +22,8 @@ namespace UITestCarsAsyncRESTv6
             //_driver = new ChromeDriver(DriverDirectory); // fast
             // if your Chrome browser was updated, you must update the driver as well ...
             //    https://chromedriver.chromium.org/downloads
-            _driver = new FirefoxDriver(DriverDirectory);  // slow
-            // _driver = new EdgeDriver(DriverDirectory); //  fast
+            //_driver = new FirefoxDriver(DriverDirectory);  // slow
+            _driver = new EdgeDriver(DriverDirectory); //  fast
             // Driver file must be renamed to MicrosoftWebDriver.exe OR msedgedriver.exe
             // depending on the version of Selenium?
         }
@@ -37,7 +37,7 @@ namespace UITestCarsAsyncRESTv6
         [TestMethod]
         public void TestMethod1()
         {
-            //string url = "http://localhost:3000/";
+            //string url = "http://127.0.0.1:5502/index.htm";
             string url = "file:///C:/andersb/javascript/carsVue3/index.htm";
             _driver.Navigate().GoToUrl(url);
 
